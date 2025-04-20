@@ -85,4 +85,27 @@ Hello, World!
   """
   print("Hi")
   ```
+# Q. What is an Escape Sequence Character in Python?
+- An escape sequence in Python is a special character combination starting with a backslash `(\)` used to represent characters that are difficult or impossible to type directly.
+
+**Common Escape Sequences:**
+```markdown
+### Common Escape Sequences in Python
+
+| Escape | Meaning               | Example                      | Output            |
+|--------|------------------------|------------------------------|--------------------|
+| `\n`   | New line              | `print("Hello\nWorld")`      | Hello <br> World   |
+| `\t`   | Tab (horizontal space)| `print("Name:\tAlice")`      | Name: Alice        |
+| `\\`   | Backslash             | `print("C:\\Users\\")`       | C:\Users\          |
+| `\'`   | Single quote          | `print('It\'s fine')`        | It's fine          |
+| `\"`   | Double quote          | `print("He said, \"Hi\"")`   | He said, "Hi"      |
+| `\r`   | Carriage return       | Moves to start of line       | -                  |
+| `\b`   | Backspace             | Deletes the last character   | -                  |
+```
+```python
+print("Line1\nLine2\tTabbed")
+Line1
+Line2	Tabbed
+```
+
 
