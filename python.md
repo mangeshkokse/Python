@@ -173,5 +173,18 @@ print(a > b)    # True (Comparison)
 print(a != b)   # True (Comparison)
 print(a > 0 and b > 0)  # True (Logical)
 ```
+# Expirement 
+```python
+a = 12
+b = 5
 
-  
+print("The value of", a, "+", b, "is:", a + b)
+print("The value of", a, "-", b, "is:", a - b)
+print("The value of", a, "*", b, "is:", a * b)
+print("The value of", a, "/", b, "is:", a / b)
+
+The value of 12 + 5 is: 17
+The value of 12 - 5 is: 7
+The value of 12 * 5 is: 60
+The value of 12 / 5 is: 2.4
+```
