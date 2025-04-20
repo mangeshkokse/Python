@@ -148,4 +148,30 @@ I live in New York
 x = 42
 print(type(x))  # Output: <class 'int'>  # It will show class of data type.
 ```
+
+# Q. What is an Operator in Python?
+- An operator in Python is a symbol or keyword used to perform operations on variables and values — like math, comparison, logic, etc.
+```markdown
+### Types of Operators in Python
+
+| Type            | Example                          | Description                              |
+|-----------------|----------------------------------|------------------------------------------|
+| **Arithmetic**  | `+`, `-`, `*`, `/`, `%`, `**`, `//` | Basic math operations                  |
+| **Assignment**  | `=`, `+=`, `-=`, `*=`, `/=`      | Assign or update values                 |
+| **Comparison**  | `==`, `!=`, `>`, `<`, `>=`, `<=` | Compare two values (True/False)         |
+| **Logical**     | `and`, `or`, `not`               | Combine multiple conditions              |
+| **Bitwise**     | `&`, `|`, `^`, `~`, `<<`, `>>`   | Work at the binary (bit) level          |
+| **Membership**  | `in`, `not in`                   | Check if a value exists in a sequence   |
+| **Identity**    | `is`, `is not`                   | Check if two variables point to same object |
+```
+```python
+a = 10
+b = 5
+
+print(a + b)    # 15 (Arithmetic)
+print(a > b)    # True (Comparison)
+print(a != b)   # True (Comparison)
+print(a > 0 and b > 0)  # True (Logical)
+```
+
   
