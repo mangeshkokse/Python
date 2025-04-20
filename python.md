@@ -44,6 +44,6 @@ Hello, World!
     ```python
     name = "Alice"
     print(name)
-
+    OR
     print("Name:", name)
     ```
