@@ -17,3 +17,15 @@
 2. **Third-party modules** – External module need to Installed via pip (`e.g., requests, numpy`)
 3. **User-defined modules** – Your own created `.py` files
     
+# Q. What is pip in python ?
+- `pip` stands for **"Pip Installs Packages"**. It’s the default package manager for Python, used to install and manage external libraries and dependencies.
+
+## What can pip do?
+- Install packages from `PyPI`
+- Uninstall packages
+- Upgrade packages
+- List installed packages
+
+```bash
+pip install requests
+```
