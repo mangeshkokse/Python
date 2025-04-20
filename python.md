@@ -146,6 +146,6 @@ I live in New York
 ```
 ```python
 x = 42
-print(type(x))  # Output: <class 'int'>
+print(type(x))  # Output: <class 'int'>  # It will show class of data type.
 ```
   
