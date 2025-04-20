@@ -29,7 +29,8 @@
 ```bash
 pip install <packages-name>
 ```
-# Q.What is print in Python?
+
+# Q. What is print in Python?
 - The `print()` function in Python displays output to the console.
 - It’s one of the most basic and commonly used functions, especially for debugging or showing results.
 ```python
