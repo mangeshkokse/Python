@@ -114,8 +114,8 @@ Line2	Tabbed
 name = "Alice"
 age = 25
 ```
-  - `name` is a variable holding the string `"Alice"`
-  - `age` is a variable holding the number `25`
+  1. `name` is a variable holding the string `"Alice"`
+  2. `age` is a variable holding the number `25`
 
 
 
