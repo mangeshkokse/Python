@@ -217,5 +217,5 @@ print(y + 10)      # Output: 60
 50 <class 'int'>
 60
 ```
-
+## Note: Practice "Taking user input" by trying multiple examples or experimenting with ChatGPT.
 
