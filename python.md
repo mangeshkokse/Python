@@ -70,9 +70,19 @@ Hello, World!
 
 # Q. What are Comments in Python?
 - Comments are lines in Python code that the Python interpreter ignores. They’re used to explain the code, make notes, or disable parts of the code for testing.
-  1. Single-line Comment:
+  1. **Single-line Comment:**
   - Use the `#` symbol.
   ```python
   # This is a comment
   print("Hello")  # This prints a message
   ```
+  2. **Multi-line Comment (Convention):**
+  - There’s no special multi-line comment syntax in Python, but you can use triple quotes `(''' or """)` as a workaround.
+  ```python
+  """
+  This is a
+  multi-line comment
+  """
+  print("Hi")
+  ```
+
