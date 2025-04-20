@@ -108,4 +108,14 @@ Line1
 Line2	Tabbed
 ```
 
+# Q. What is a Variable in Python?
+- A variable in Python is a name that stores a value. Think of it as a container that holds data for later use.
+```python 
+name = "Alice"
+age = 25
+```
+  - `name` is a variable holding the string `"Alice"`
+  - `age` is a variable holding the number `25`
+
+
 
