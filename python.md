@@ -125,3 +125,27 @@ print("I live in", city)
 
 I live in New York
 ```
+
+# Q. What is a Data Type in Python?
+- A data type in Python tells you what kind of value a variable holds — like a number, text, list, etc.
+- Python is dynamically typed, so you don’t need to declare the type — Python figures it out automatically.
+```markdown
+### Common Data Types in Python
+
+| Type       | Example           | Description                      |
+|------------|-------------------|----------------------------------|
+| `int`      | `x = 10`          | Integer (whole number)           |
+| `float`    | `x = 3.14`        | Decimal number                   |
+| `str`      | `x = "Hello"`     | String (text)                    |
+| `bool`     | `x = True`        | Boolean (True or False)          |
+| `list`     | `x = [1, 2, 3]`   | Ordered, changeable collection   |
+| `tuple`    | `x = (1, 2, 3)`   | Ordered, unchangeable collection |
+| `dict`     | `x = {"a": 1}`    | Key-value pairs                  |
+| `set`      | `x = {1, 2, 3}`   | Unordered, unique values         |
+| `NoneType` | `x = None`        | Represents no value              |
+```
+```python
+x = 42
+print(type(x))  # Output: <class 'int'>
+```
+  
