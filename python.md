@@ -27,5 +27,5 @@
 - List installed packages
 
 ```bash
-pip install requests
+pip install <packages-name>
 ```
