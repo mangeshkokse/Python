@@ -13,7 +13,7 @@
 - Modules help you organize your code, avoid repetition, and keep things clean and manageable.
 
 ## Types of Modules:
-1 **Built-in modules** – Already available (`e.g., os, sys, math`)
-2 **Third-party modules** – Installed via pip (`e.g., requests, numpy`)
-3 **User-defined modules** – Your own `.py` files
+1. **Built-in modules** – Already available (`e.g., os, sys, math`)
+2. **Third-party modules** – Installed via pip (`e.g., requests, numpy`)
+3. **User-defined modules** – Your own `.py` files
     
