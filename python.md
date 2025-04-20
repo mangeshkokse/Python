@@ -37,4 +37,13 @@ pip install <packages-name>
 print("Hello, World!")
 Hello, World!
 ```
+- You can print:
+  - Strings → `print("Hi")`
+  - Numbers → `print(123)`
+  - Variables →
+    ```python
+    name = "Alice"
+    print(name)
 
+    print("Name:", name)
+    ```
