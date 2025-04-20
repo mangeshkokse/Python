@@ -116,6 +116,12 @@ age = 25
 ```
   1. `name` is a variable holding the string `"Alice"`
   2. `age` is a variable holding the number `25`
+- You don’t need to declare the type (Python is dynamically typed).
+- Variables can hold different types: numbers, strings, lists, etc.
+- Variable names should be descriptive and cannot start with a number.
+```python
+city = "New York"
+print("I live in", city)
 
-
-
+I live in New York
+```
