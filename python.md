@@ -47,3 +47,23 @@ Hello, World!
     OR
     print("Name:", name)
     ```
+    
+# Q. What is a Parenthesis () in Python?
+- Parentheses `()` in Python are used in several important ways:
+  1.  Function Calls
+  ```python
+  print("Hello")  # 'print' is the function, "Hello" is the argument
+  ```
+  2. Function Definitions
+  ```python
+  def greet(name):
+    print("Hello", name)
+  ```
+  3. Tuples
+  ```python
+  my_tuple = (1, 2, 3)
+  ```
+  4. Grouping in Expressions
+  ```python
+  result = (2 + 3) * 4  # Without (), it would be 2 + (3*4)
+  ``` 
