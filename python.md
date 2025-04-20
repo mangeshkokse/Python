@@ -188,3 +188,34 @@ The value of 12 - 5 is: 7
 The value of 12 * 5 is: 60
 The value of 12 / 5 is: 2.4
 ```
+
+# Q. What is Typecasting in Python?
+- Typecasting means converting one data type into another in Python, like turning a string into an integer or a float into a string.
+```markdown
+### Common Typecasting Functions in Python
+
+| Function   | Converts to | Example         | Result          |
+|------------|-------------|------------------|------------------|
+| `int()`    | Integer      | `int("10")`       | `10`             |
+| `float()`  | Float        | `float("5.6")`    | `5.6`            |
+| `str()`    | String       | `str(25)`         | `"25"`           |
+| `bool()`   | Boolean      | `bool(0)`         | `False`          |
+| `list()`   | List         | `list("abc")`     | `['a', 'b', 'c']` |
+```
+**Example**
+```python
+# Typecasting example: converting string to integer
+
+x = "50"           # x is a string
+y = int(x)         # typecast to integer
+
+print(x, type(x))  # Output: 50 <class 'str'>
+print(y, type(y))  # Output: 50 <class 'int'>
+print(y + 10)      # Output: 60
+# Output
+50 <class 'str'>
+50 <class 'int'>
+60
+```
+
+
