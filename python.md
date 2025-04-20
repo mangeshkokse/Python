@@ -66,4 +66,13 @@ Hello, World!
   4. Grouping in Expressions
   ```python
   result = (2 + 3) * 4  # Without (), it would be 2 + (3*4)
-  ``` 
+  ```
+
+# Q. What are Comments in Python?
+- Comments are lines in Python code that the Python interpreter ignores. They’re used to explain the code, make notes, or disable parts of the code for testing.
+  1. Single-line Comment:
+  - Use the `#` symbol.
+  ```python
+  # This is a comment
+  print("Hello")  # This prints a message
+  ```
