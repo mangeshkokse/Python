@@ -239,6 +239,57 @@ print(a + b)     # wrong  syntax
 print(int(a) + int(b))
 ```
 
+# Q. what is string in python.
+- A string is a sequence of characters enclosed in single `(')`, double `(")`, or triple quotes `(''' / """)`.
+```python
+s1 = 'Hello'
+s2 = "World"
+s3 = '''Multi-line
+string'''
+```
+```markdown
+## String Basics
+
+| Property     | Description                              | Example                    |
+|--------------|------------------------------------------|----------------------------|
+| Type         | `str` (string type)                      | `type("Hi")` → `<class 'str'>` |
+| Indexing     | Access characters using index `[]`       | `"Python"[0]` → `'P'`      |
+| Slicing      | Extract substring                        | `"Python"[0:3]` → `'Pyt'`  |
+| Length       | Count characters                         | `len("Hello")` → `5`       |
+```
+```python
+a = "Hello"
+b = "World"
+print(a + " " + b)      # Concatenation → "Hello World"
+print(a * 3)            # Repetition → "HelloHelloHello"
+```
+```markdown
+## Useful String Methods
+
+| Method            | Description                            | Example                                |
+|-------------------|----------------------------------------|----------------------------------------|
+| `lower()`         | Converts to lowercase                  | `"HELLO".lower()` → `'hello'`          |
+| `upper()`         | Converts to uppercase                  | `"hi".upper()` → `'HI'`                |
+| `strip()`         | Removes whitespace                     | `"  hi  ".strip()` → `'hi'`            |
+| `replace()`       | Replaces part of the string            | `"hi".replace("h", "H")` → `'Hi'`      |
+| `split()`         | Splits string into list                | `"a,b,c".split(",")` → `['a', 'b', 'c']` |
+| `find()`          | Finds first index of a substring       | `"hello".find("l")` → `2`              |
+| `startswith()`    | Checks if string starts with substring | `"hello".startswith("he")` → `True`    |
+| `endswith()`      | Checks if string ends with substring   | `"hello".endswith("o")` → `True`       |
+-------------------------------------------------------------------------------------------------------
+
+## Escape Characters
+
+| Escape | Meaning        |
+|--------|----------------|
+| `\n`   | New line       |
+| `\t`   | Tab space      |
+| `\\`   | Backslash      |
+| `\'`   | Single quote   |
+| `\"`   | Double quote   |
+---------------------------
+```
+
 
 
 
