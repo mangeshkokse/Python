@@ -219,3 +219,22 @@ print(y + 10)      # Output: 60
 ```
 ## Note: Practice "Taking user input" by trying multiple examples or experimenting with ChatGPT.
 
+# Q.  What is input() in Python?
+- In Python, input() is a built-in function used to take input from the user via the keyboard.
+```python
+variable = input("Enter something: ")
+```
+- The message inside quotes is shown as a prompt.
+- The input is always returned as a string, so you may need to convert it using `int()`, `float()`, etc.
+```python
+name = input("Enter your name: ")
+print("Hello,", name)
+
+Enter your name: Mangesh
+Hello, Mangesh
+```
+
+
+
+
+
