@@ -306,7 +306,7 @@ print("My name is {} and I am {} years old.".format(name, age))
 
 # String Immutability
 s = "hello"
-# s[0] = 'H' # This will cause an error ( Strings in Python are immutable, which means they cannot be changed after creation:)
+# s[0] = 'H' - This will cause an error ( Strings in Python are immutable, which means they cannot be changed after creation:)
 ```
 
 
