@@ -222,16 +222,21 @@ print(y + 10)      # Output: 60
 # Q.  What is input() in Python?
 - In Python, `input()` is a built-in function used to take input from the user via the keyboard.
 ```python
-variable = input("Enter something: ")
-```
-- The message inside quotes is shown as a prompt.
-- The input is always returned as a string, so you may need to convert it using `int()`, `float()`, etc.
-```python
+# variable = input("Enter something: ")
 name = input("Enter your name: ")
 print("Hello,", name)
 
 Enter your name: Mangesh
 Hello, Mangesh
+```
+- The message inside quotes is shown as a prompt.
+- The input is always returned as a string, so you may need to convert it using `int()`, `float()`, etc.
+```python
+a = input("Enter first number: ")
+b = input("Enter second number: ")
+
+print(a + b)     # wrong  syntax
+print(int(a) + int(b))
 ```
 
 
