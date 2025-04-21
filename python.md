@@ -289,6 +289,27 @@ print(a * 3)            # Repetition → "HelloHelloHello"
 | `\"`   | Double quote   |
 ---------------------------
 ```
+```python
+print("Hello\nWorld")
+
+Hello
+World
+
+#  String Formatting
+name = "Mangesh"
+age = 28
+print(f"My name is {name} and I am {age} years old.")   # The f in front of the string stands for "formatted string literal". It allows you to embed variables or expressions directly inside a string using {}.
+
+# OR
+
+print("My name is {} and I am {} years old.".format(name, age))
+
+# String Immutability
+s = "hello"
+# s[0] = 'H' # This will cause an error ( Strings in Python are immutable, which means they cannot be changed after creation:)
+```
+
+
 
 
 
